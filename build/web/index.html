@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>UNINOVE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h2>Calcular Média</h2>
+        <div id="Dados">
+            <p>Nota final</p>
+            <form action="calculo.jsp" method="get" target="result">
+                Nome:<br><input type="text" name="nome_aluno"><br><br>
+                AV1:<br><input type="text" name="AV1"><br><br>
+                AV2:<br><input type="text" name="AV2"><br><br>
+                <input type="submit" name="enviar" value="calcular">
+            </form>
+        </div>
+        <br><br>
+        <div id="retorno">
+            <iframe name="result" width="1000" height="1000">
+
+            </iframe>
+        </div>
+    </body>
+</html>
